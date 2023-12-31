@@ -34,16 +34,16 @@ if weather_data["cod"] == 200:
 
     # словарик
     weather_dict = {"Температура": f"{temp} °C", 
-                    "Кажется что": f"{feels_like} °C",
-                    "Моральное давление": f"{pressure} гПа",
+                    "Ощущается как": f"{feels_like} °C",
+                    "Давление": f"{pressure} гПа",
                     "Влажность": f"{humidity} %",
                     "Скорость ветра": f"{wind_speed} м/с",
-                    "Направление ветра куда тебя унесет": f"{wind_deg} °",
-                    "Емае ОБЛАКА": f"{clouds} %",
-                    "Короче": description,
+                    "Направление ветра": f"{wind_deg} °",
+                    "Облака": f"{clouds} %",
+                    "Кратко": description,
                     "Минимальная температура": f"{temp_min} °C",
                     "Максимальная температура": f"{temp_max} °C",
-                    "Твоя видимость": f"{visibility} м",
+                    "Видимость": f"{visibility} м",
                     "Солнце встает в (МСК)": sunrise_moscow_time,
                     "Солнце падает в (МСК)": sunset_moscow_time}
 
